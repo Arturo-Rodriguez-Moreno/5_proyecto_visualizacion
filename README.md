@@ -1,7 +1,7 @@
-![nba75.jpg](images/nba75.jpg)
+![Player_3pts.png](images/Player_3pts.png)
 
 
-# Proyecto ETL
+# Proyecto ETL y Visualización
 ## Introducción:
 
 
@@ -16,20 +16,21 @@ El tema que he escogido es la NBA, más en particular estadísticas completas de
  - https://www.kaggle.com/datasets/nathanlauga/nba-games
  - https://www.balldontlie.io/#get-all-players
  - https://en.wikipedia.org/wiki/List_of_United_States_cities_by_population
+ - https://espndeportes.espn.com/basquetbol/
+ 
 
 ## Objetivos:
 
 - Recopilar datos de 3 fuentes y 3 técnicas de extracción. 
 - Explorar, limpiar y transformar los datos.
 - Diseñar, crear y alimentar la base de datos.
+- Analizar y visualizar.
 
 
 ## Entregables:
 
-- `extraction.ipynb` 
-- `clean_data.ipynb`
-- `import_db.ipynb`
-
+- `nba_stats.sql` 
+- `nba_stats.twb`
 
 
 ## Extracción de datos:
@@ -57,6 +58,9 @@ Primero me diseño la estructura de la base de datos en un papel y cuando tengo 
 
 Para ello utilizo otra vez jupyter nootebook y me ayudo de mysql-conector para realizarlo de forma automatizada. Primero creo la base de dato, luego las tablas con sus relaciones y por último le inserto los datos.
 
+## Analizar y visualizar:
+
+
 
 
 ## Enlaces y Recursos:
@@ -72,6 +76,7 @@ Para ello utilizo otra vez jupyter nootebook y me ayudo de mysql-conector para r
 - https://docs.python-requests.org/en/latest/
 - https://dev.mysql.com/doc/connector-python/en/
 - https://selenium-python.readthedocs.io/
+- https://www.tableau.com/es-es
 
 
 
