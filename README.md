@@ -5,9 +5,11 @@
 ## Introducción:
 
 
-En el siguinte proyecto se me ha encargado como objetivo extraer datos de 3 fuentes diferentes y utilizando varias tecnicas de extranción, para a posteriori tranformarlos y por último cargarlos a una base de datos.
+En el siguinte proyecto se me ha encargado como objetivo extraer datos de 3 fuentes diferentes y utilizando varias tecnicas de extranción, para a posteriori tranformarlos, cargarlos a una base de datos Y por último realizar una análisis con su correspondiente visualización.
 
 El tema que he escogido es la NBA, más en particular estadísticas completas de los partidos desde el año 2004 hasta el 2020. Para ello utilizaré diferentes fuentes, en una de ellas descargaré directamente archivos en csv, otra será una API y por último scrapearé una web.
+
+En cuanto al análisis y visualización utilizaré Tableau con el que realizaré varios dashboards en los que se muestren diferentes perspectivas de los datos.
 
 
 
@@ -60,12 +62,30 @@ Para ello utilizo otra vez jupyter nootebook y me ayudo de mysql-conector para r
 
 ## Analizar y visualizar:
 
+Como seguidor de la NBA he visto la evolución de la forma de jugar en las dos últimas decadas, en la que aparentemente cada vez se tira mas de 3 puntos y menos de 2 puntos. Con este análisis, comprobares si los datos contrastan mi percepción.
+
+Para ello lo primero que compruebo es la evolución en el tiempo del número de tiros de 3 y 2 puntos en toda la liga y se aprecia lo siguiente:
+
+- La tendencia del tiro de 3 puntos va en aumento desde el 2004, se hace mucho mas significativa con los años a partir de 2010
+- La tendencia del tiro de 2 puntos se mantiene estable desde el 2004 y empieza a decrecer paulatinamente a partir del 2010.
+
+Esto me lleva a pensar que efectivamente desde el 2004 cada vez se recurre al tiro de 3 y desde 2010 algunos equipos basan su juego en esta táctica. Por lo que el siguiente paso es estudiar la tedencia indivial de los equipos que mas tiran y para identificar a los mas influyentes:
+
+- Houston Rocket
+- Golden State Warriors
+
+Realizo el mismo ejercicio para determinar los jugadores mas influyentes:
+
+- Stephen Curry
+- James Harden 
+- Klay Thompson
+- Damian Lillard
 
 
 
 ## Enlaces y Recursos:
 
-- <https://www.kaggle.com/teajay/global-shark-attacks>
+
 - <https://numpy.org/doc/1.18/>
 - <https://pandas.pydata.org/>
 - https://docs.python.org/3/library/functions.html
@@ -79,6 +99,12 @@ Para ello utilizo otra vez jupyter nootebook y me ayudo de mysql-conector para r
 - https://www.tableau.com/es-es
 
 
+
+
+
+```python
+
+```
 
 
 
